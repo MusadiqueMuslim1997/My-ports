@@ -7,7 +7,9 @@
 body{
   background-color: black;
 }
-
+.my-header{
+    background-color: black !important;
+}
 .hero{
     width: 100%;
     
@@ -29,6 +31,9 @@ body{
   
    
 
+}
+.gold{
+    color: goldenrod;
 }
 .header > h4{
     
@@ -158,7 +163,7 @@ p{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-   background-color: rgba(9,9,121,1);
+   background-image: linear-gradient(black 50%, goldenrod);
     
     
     gap: 5px;
@@ -189,6 +194,7 @@ p{
 .para-head > h4{
     font-size: 1rem;
     color: silver;
+    font-weight: bold;
 }
 .para{
     width: 100%;
@@ -199,7 +205,8 @@ p{
 
 .para > p{
     font-size: 1rem;
-    color: silver;
+    color: white;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
