@@ -34,6 +34,7 @@ body{
 }
 .gold{
     color: goldenrod;
+    font-weight: bolder;
 }
 .header > h4{
     
